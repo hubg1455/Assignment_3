@@ -1,0 +1,34 @@
+1.Why are functions advantageous to have in your programs?
+
+Functions are used to divide the large program into smaller so that easy to read and it helps to maximize the code reusability.
+Avoid repetition of codes.
+When does the code in a function run: when it's specified or when it's called?
+When function is called.
+What statement creates a function?
+Function is created with the def keyword and using return.
+e.g.    def xyz(a,b):
+    return a+b
+What is the difference between a function and a function call?
+Function is block of code which is executed when it is called.
+How many global scopes are there in a Python program? How many local scopes?
+Variables declared outside a function is a global variable and belongs to the global scope.
+Variables declared inside  a function is a local variable and belongs to the local scope.
+What happens to variables in a local scope when the function call returns?
+When a function returns, the local scope is destroyed, and we will not be able to access the outside the function.
+What is the concept of a return value? Is it possible to have a return value in an expression?
+A return value is a value which is used to end the execution of the function call and “returns” the result to the caller. A return value have in an expression.
+If a function does not have a return statement, what is the return value of a call to that function?
+If a function does not have a return statement, the return value of a call to that function will be None.
+How do you make a function variable refer to the global variable?
+By using global keyword inside the function e.g. global x
+What is the data type of None?
+NoneType
+What does the sentence import areallyourpetsnamederic do?
+areallyourpetsnamederic ia not a python module. When Importing this module in IDE it showing  ModuleNotFoundError.
+If you had a bacon() feature in a spam module, what would you call it after importing spam?
+Spam.bacon()
+What can you do to save a programme from crashing if it encounters an error?
+We can use try except block to avoid the error. We can write lines of code in try block. This will not crash the programme and in except block we can catch the error.
+What is the purpose of the try clause? What is the purpose of the except clause?
+Try clause is used to test the block of code for errors and except clause to used to catch and handle the error.
+Try clause is used to test the block of code for errors and except clause to used to catch and handle the error.
